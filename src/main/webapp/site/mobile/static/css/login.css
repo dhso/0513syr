@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'microsoft yahei','Hiragino Sans GB','Hiragino Sans GB W3',sans-serif;
+}
+.main{
+    width:1060px;
+    height: 664px;
+    margin: 20px auto;
+    background-image:url(../images/login.png);
+    position: relative;
+}
+.main a{
+    display: block;
+    position: absolute;
+    top: 32px;
+    width: 112px;
+    height: 27px;
+}
+.back-index{
+    left: 44px;
+}
+.rules{
+    right: 56px;
+
+}
+.text{
+    font-family: 'microsoft yahei','Hiragino Sans GB','Hiragino Sans GB W3',sans-serif;
+    position: absolute;
+    border: none;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 6px;
+    width: 231px;
+    outline: none;
+    left: 153px;
+    border-radius: 3px;
+}
+.name{
+    top: 244px;
+
+}
+.phone{
+    top: 309px;
+}
+.idcard{
+    top: 426px;
+}
+.vipcard{
+    top:492px;
+}
+.btn-submit{
+    position: absolute;
+    display: block;
+    left: 151px;
+    top: 566px;
+    width: 133px;
+    height: 41px;
+    cursor: pointer;
+    border: none;
+    background-color:#f07f13;
+    border-radius: 5px;
+    line-height: 41px;
+    color:#fff;
+    font-size: 20px;
+    outline: none;
+}

@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main{
+	width:1060px;
+	height: 992px;
+	margin: 20px auto;
+	background-image:url(../images/activity-rules.png);
+	position: relative;
+}
+.main a{
+	display: block;
+	position: absolute;
+	top: 32px;
+    width: 112px;
+    height: 27px;
+}
+.back-index{
+    left: 44px;
+}
+.back-prev{
+    right: 56px;
+}

@@ -130,11 +130,11 @@
 		    display: none;
 		    position: absolute;
 		    top: 27px;
-		    right: -55px;
-		    width: 40px;
-		    height: 40px;
+		    left: 260px;
+		    width: 42px;
+		    height: 42px;
 		    background: #2d2d2d; /* browsers that don't support rgba */
-		    background: rgba(45,45,45,.25);
+		    background: transparent;/*rgba(45,45,45,.25); */
 		    -moz-border-radius: 8px;
 		    -webkit-border-radius: 8px;
 		    border-radius: 8px;
@@ -188,9 +188,9 @@
 		        // Components
 		        slide_links        : 'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		        slides             : [    // Slideshow Images
-		                                 {image : baseUrl + '/ikea/static/img/1.jpg'},
-		                                 {image : baseUrl + '/ikea/static/img/2.jpg'},
-		                                 {image : baseUrl + '/ikea/static/img/3.jpg'}
+		                                 {image : baseUrl + '/site/static/img/1.jpg'},
+		                                 {image : baseUrl + '/site/static/img/2.jpg'},
+		                                 {image : baseUrl + '/site/static/img/3.jpg'}
 		                             ]
 		    });
 		    $('.page-container form').submit(function(){
@@ -221,4 +221,4 @@
 		    });
 		});
 </@override>
-<@extends name="ikea/layout.html"/>
+<@extends name="site/mobile/layout.html"/>

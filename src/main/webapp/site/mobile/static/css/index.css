@@ -1,0 +1,27 @@
+*{
+     margin:0;
+     padding:0;
+ }
+.main{
+    width:1060px;
+    height: 664px;
+    margin: 20px auto;
+    background-image:url(../images/main.png);
+    position: relative;
+}
+.main a{
+    display: block;
+    position: absolute;
+}
+.rules{
+    right: 56px;
+    top: 32px;
+    width: 112px;
+    height: 27px;
+}
+.btn{
+    left: 366px;
+    top: 473px;
+    width: 329px;
+    height: 95px;
+}
