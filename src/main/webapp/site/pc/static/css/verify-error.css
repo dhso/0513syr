@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:1060px;
+    height: 664px;
+    margin: 20px auto;
+    background-image:url(../images/verify-error.png);
+    position: relative;
+}
+.main a.back-index,
+.main .rules {
+    display: block;
+    position: absolute;
+    top: 32px;
+    width: 112px;
+    height: 27px;
+}
+.back-index{
+    left: 44px;
+}
+.rules{
+    right: 56px;
+}
+.back-search{
+    position: absolute;
+    display: block;
+    width: 188px;
+    height: 40px;
+    left: 117px;
+    top: 492px;
+}

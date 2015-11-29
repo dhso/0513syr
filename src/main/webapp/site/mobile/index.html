@@ -1,0 +1,15 @@
+<@override name="title">首页</@override>
+<@override name="inCss">
+	.demo {
+		width: 1100px;
+		height: 985px;
+		background-image: url(ikea/static/img/0.jpg);
+		background-size: cover;
+	}
+</@override>
+<@override name="body">
+	${session["_ikeaUser"].numbershipNum}
+	${session["_ikeaUser"].mobile}
+	<div class="demo"></div>
+</@override>
+<@extends name="ikea/layout.html"/>

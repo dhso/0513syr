@@ -1,0 +1,8 @@
+devMode = ${devMode}
+
+#对接地址
+
+remote.webservice = ${remote.webservice}
+
+#图灵
+tuling.appkey = e7957090907773817e35b9379f155b26
